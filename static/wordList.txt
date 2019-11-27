@@ -1,16 +1,7 @@
-just: In most cases, this word can just be deleted with no consequent loss in the meaning of the sentence.
-easily: Do not presume something can be done easily by whoever is reading the docs. Knowledge levels vary.
-simply: Do not presume something is a simple task. People have varying expertise.
-easy: Do not presume something's easy for the person reading the docs. It might make the person feel inadequate or intimidated.
-abort: Avoid. Instead, consider using 'end', 'close', 'stop', 'quit', or 'cancel'.
-above: Do not use to refer to content that's placed earlier on the page. Instead, use 'earlier', 'preceding', or 'previous'.
-below: Do not use to refer to content that's placed later on the page. Instead, use 'later', 'subsequent', or 'following'.
-illegal: Consider using 'not valid' instead.
-expose: Consider replacing with 'make available' or 'display'.
-dumb: Do not use. Try 'cannot be programmed' or 'non-programmable'?
-dummy: Replace with 'placeholder'.
-corrupt: Avoid. Use 'damage' instead.
-he or she: Use 'they'; it's an accepted singular. Or, rewrite the entire sentence altogether.
-s/he: Is awkward. Either use 'they' or do a rewrite.
-blacklist: Avoid such colorful language. Use something like 'denylist'.
-hamburger: Hamburgers are things that are eaten, not things that are clicked. Replace with 'menu'.
+just: explanation for where and when _just_ can be used
+easily: explanation for where and when _easily_ can be used
+simply: explanation for where and when _simply_ can be used
+easy: explanation for where and when _easy_ can be used
+abort: explanation for where and when _abort_ can be used
+above: do not use as a positional indicator
+below: do not use as a positional indicator
