@@ -34,25 +34,27 @@ def stop_words():
     print('\nNo. of words and phrases to search for: ', x)
     wordpos = 0
     for word in wordlist:
-        print(word)
-        reportfile.write('<p><mark>' + word + '</mark></p>')
-        print(explainlist[wordpos])
-        reportfile.write('<p>' + explainlist[wordpos] + '</p>')
         url_string = URL_prefix + word + URL_suffix
         r = requests.get(url_string)
         json_data = json.loads(json.dumps(r.json()))
-        print(word, 'found in:')
-        reportfile.write('<p><mark>' + word + '</mark> found in:</p>')
-        reportfile.write('<ul>')
-        for line in json_data['items']:
-            for k, v in line.items():
-                if k == 'path':
-                    print(v)
-                    reportfile.write('<li>' + v + '</li>')
-        print('--------\n')
-        reportfile.write('</ul>')
-        reportfile.write('<hr/>')
-        wordpos = wordpos + 1
+        print(json_data)
+        if len(json_data['items']) != 0:
+            print(word)
+            reportfile.write('<p><mark>' + word + '</mark></p>')
+            print(explainlist[wordpos])
+            reportfile.write('<p>' + explainlist[wordpos] + '</p>')
+            print(json_data['total_count'], 'instances of', word)
+            reportfile.write('<p>' + str(json_data['total_count']) + ' instances of <mark>' + word + '</mark> found in the following files:</p>')
+            reportfile.write('<ul>')
+            for line in json_data['items']:
+                for k, v in line.items():
+                    if k == 'path':
+                        print(v)
+                        reportfile.write('<li>' + v + '</li>')
+            print('--------\n')
+            reportfile.write('</ul>')
+            reportfile.write('<hr/>')
+            wordpos = wordpos + 1
     reportfile.write("</body>")
     reportfile.write("</html>")
     reportfile.close()
