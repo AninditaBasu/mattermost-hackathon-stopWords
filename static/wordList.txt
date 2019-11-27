@@ -8,4 +8,3 @@ below: Do not use to refer to content that is placed later on the page. Instead,
 expose: Consider replacing with make available or display.
 dumb: Do not use. Try using non-programmable or cannot be programmed.
 corrupt: Avoid. Use damage instead.
-blacklist: Avoid such colorful language. Use something like denylist.
