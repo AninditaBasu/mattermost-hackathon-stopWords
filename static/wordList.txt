@@ -1,7 +1,7 @@
-just: explanation for where and when _just_ can be used
-easily: explanation for where and when _easily_ can be used
-simply: explanation for where and when _simply_ can be used
-easy: explanation for where and when _easy_ can be used
-abort: explanation for where and when _abort_ can be used
-above: do not use as a positional indicator
-below: do not use as a positional indicator
+just: In most cases, this word can just be deleted with no consequent loss in the meaning of the sentence.
+easily: Do not presume something can be done easily by whoever is reading the docs. Knowledge levels vary.
+simply: Do not presume something is a simple task. People have varying expertise.
+easy: Do not presume something is easy for the person reading the docs. It might make the person feel inadequate or intimidated.
+abort: Avoid. Instead, consider using end, close, stop, quit, or cancel.
+above: Do not use to refer to content that is placed earlier on the page. Instead, use earlier, preceding, or previous.
+below: Do not use to refer to content that is placed later on the page. Instead, use later, subsequent, or following.
