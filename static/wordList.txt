@@ -10,6 +10,5 @@ expose: Consider replacing with make available or display.
 dumb: Do not use. Try _cannot be programmed_ or _non-programmable_?
 dummy: Replace with placeholder.
 corrupt: Avoid. Use damage instead.
-he or she: Use they as a singular pronoun. Or, rewrite the entire sentence altogether.
 blacklist: Avoid such colorful language. Use something like denylist.
 hamburger: Hamburgers are things that are eaten, not things that are clicked. Replace with menu.
