@@ -54,7 +54,7 @@ def stop_words():
             print('--------\n')
             reportfile.write('</ul>')
             reportfile.write('<hr/>')
-            wordpos = wordpos + 1
+        wordpos = wordpos + 1
     reportfile.write("</body>")
     reportfile.write("</html>")
     reportfile.close()
