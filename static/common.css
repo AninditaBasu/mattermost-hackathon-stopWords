@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6 {color:#cc6600;}
+
+hr {border-color:#336600;}
+
+.card {border-color:#336600;}
+
+.media {border-color:#336600;}
+
+.green {color: #336600;}
+
+.orange {color:#cc6600;}
+
+.bg-fill {background-color:##f2f2f2;}
+
+.bd-color {border-color:#336600;}
+
+.fill {background-color:##f2f2f2; border-color:#336600;}
+
+.hoveff:hover {background-color:#f2ffe6;}

@@ -1,10 +1,11 @@
-just: Do not use to imply something can be easily done. In most cases, this word can just be deleted with no consequent loss in the meaning. Use it only to refer to something that happened in the very recent past. 
-easily: Do not presume something can be done easily by whoever is reading the documentation. Knowledge levels vary.
 simply: Do not presume something is a simple task. People have varying expertise.
-easy: Do not presume something is easy for the person reading the documentation. It might make the person feel inadequate or intimidated.
-abort: Avoid. Instead, consider using end, close, stop, quit, or cancel.
-above: People using screenreaders might not find this location pointer useful, so do not use to refer to content that is placed earlier on the page. Instead, use earlier, preceding, or previous.
-below: People using screenreaders might not find this location pointer useful, so do not use to refer to content that is placed later on the page. Instead, use later, subsequent, or following.
-expose: Consider replacing with make available.
-dumb: Do not use. Try using non-programmable or cannot be programmed.
-corrupt: Avoid. Use damage instead.
+abort: Avoid. Instead, consider using <i>end</i>, <i>close</i>, <i>stop</i>, <i>quit</i>, or <i>cancel</i>.
+above: Do not use to refer to content that is placed earlier on the page. Instead, use <i>earlier</i>, <i>preceding</i>, or <i>previous</i>.
+below: Do not use to refer to content that is placed later on the page. Instead, use <i>later</i>, <i>subsequent</i>, or <i>following</i>.
+easily: Do not presume something can be done easily by whoever is reading the docs. Knowledge levels vary.
+just: In most cases, this word can <i>just</i> be deleted with no consequent loss in the meaning of the sentence.
+easy: Do not presume something is easy for the person reading the docs. It might make the person feel inadequate or intimidated.
+expose: Consider replacing with <i>make available</i> or <i>display</i>.
+dumb: Do not use. Try using <i>non-programmable</i> or <i>cannot be programmed</i>.
+corrupt: Avoid. Use <i>damage</i> instead.
+blacklist: Avoid such colorful language. Use something like <i>denylist</i> maybe?
