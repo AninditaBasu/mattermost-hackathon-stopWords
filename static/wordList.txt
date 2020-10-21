@@ -1,11 +1,5 @@
 simply: Do not presume something is a simple task. People have varying expertise.
-abort: Avoid. Instead, consider using <i>end</i>, <i>close</i>, <i>stop</i>, <i>quit</i>, or <i>cancel</i>.
-above: Do not use to refer to content that is placed earlier on the page. Instead, use <i>earlier</i>, <i>preceding</i>, or <i>previous</i>.
-below: Do not use to refer to content that is placed later on the page. Instead, use <i>later</i>, <i>subsequent</i>, or <i>following</i>.
 easily: Do not presume something can be done easily by whoever is reading the docs. Knowledge levels vary.
 just: In most cases, this word can <i>just</i> be deleted with no consequent loss in the meaning of the sentence.
 easy: Do not presume something is easy for the person reading the docs. It might make the person feel inadequate or intimidated.
-expose: Consider replacing with <i>make available</i> or <i>display</i>.
-dumb: Do not use. Try using <i>non-programmable</i> or <i>cannot be programmed</i>.
-corrupt: Avoid. Use <i>damage</i> instead.
 blacklist: Avoid such colorful language. Use something like <i>denylist</i> maybe?
